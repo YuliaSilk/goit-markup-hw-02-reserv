@@ -1,6 +1,12 @@
+:root {
+    --primery-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --acent-color: #FFFFFF;
+}
+
 .page {
 background-color: #FFFFFF;
-color: #434455;
+color:var(--primery-text-color);
 }
 /* header */
 .logo-web {
@@ -10,7 +16,7 @@ color: #434455;
    color: #2E2F42; 
 }
 
-ul {
+ul .list {
     list-style: none;
 }
 
@@ -30,7 +36,11 @@ ul {
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color:var(--acent-color);
+}
+.button {
+    background-color: #4D5AE5;
+    color: var(--acent-color);
 }
 
 .section{
@@ -38,11 +48,20 @@ ul {
 }
 
 .section-subtitle {
-    color: #2E2F42;
+    color:var(--title-text-color);
 }
 
 .section-title {
-    color: #2E2F42;
+    color:var(--title-text-color);
+}
+
+.section-team{
+    background-color:  #F4F4FD;
+}
+/* footer */
+.footer-text {
+    background-color: #2E2F42;
+    color: var(--acent-color);
 }
 /* main text =434455 */
 /* secondarybgd-color=background: #F4F4FD */
