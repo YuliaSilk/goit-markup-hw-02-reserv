@@ -1,1 +1,48 @@
+.page {
+background-color: #FFFFFF;
+color: #434455;
+}
+/* header */
+.logo-web {
+    color: #4D5AE5;
+}
+.logo-studio {
+   color: #2E2F42; 
+}
 
+ul {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #2E2F42;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #000000;
+}
+
+/* main */
+
+.hero {
+    background: #2E2F42
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.section{
+
+}
+
+.section-subtitle {
+    color: #2E2F42;
+}
+
+.section-title {
+    color: #2E2F42;
+}
+/* main text =434455 */
+/* secondarybgd-color=background: #F4F4FD */
