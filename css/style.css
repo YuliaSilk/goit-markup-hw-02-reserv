@@ -16,7 +16,7 @@ color:var(--primery-text-color);
    color: #2E2F42; 
 }
 
-ul .list {
+ul {
     list-style: none;
 }
 
@@ -27,6 +27,9 @@ ul .list {
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: #000000;
+}
+.addres a {
+    color: var(--primery-text-color);
 }
 
 /* main */
@@ -63,5 +66,38 @@ ul .list {
     background-color: #2E2F42;
     color: var(--acent-color);
 }
+
+  /* PORFOLIO */
+
+  .portfolio {
+    background: #E5E5E5;
+    color: var(--primery-text-color);
+  }
+  ul {
+    list-style: none;
+  }
+
+
+  .button .active {
+    background: #404BBF;
+    color: #FFFFFF;
+  }
+
+  .filter-button {
+    background: #F4F4FD;
+    color: #4D5AE5;
+  }
+
+.cards-tittle {
+    color:var(--title-text-color);
+
+}
+  
+
+
+
+  /* color-h3:#2E2F42 */
+/* color-p-#434455 */
+
 /* main text =434455 */
 /* secondarybgd-color=background: #F4F4FD */
