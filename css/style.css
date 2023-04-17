@@ -87,11 +87,7 @@ ul {
 .button-active:hover {
    background-color: #404BBF;
 }
-/* #404BBF */
 
-.section{
-
-}
 .section-title {
     color:var(--title-text-color);
     font-weight: 700;
