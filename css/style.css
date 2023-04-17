@@ -3,6 +3,8 @@
     --title-text-color: #2E2F42;
     --acent-color: #FFFFFF;
 }
+
+
 /* main-page */
 .body {
 background-color: #FFFFFF;
@@ -46,13 +48,19 @@ ul {
 .site-nav .link:focus {
     color: #000000;
 }
-.addres a {
+.address a {
     color: var(--primery-text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
+.active:hover,
+.active:focus {
+    color:  #404BBF;
+}
+
+/*  #404BBF */
 
 /* main */
 
@@ -68,6 +76,7 @@ ul {
     width: 496px;
 }
 .button {
+    cursor: pointer;
     background-color: #4D5AE5;
     color: var(--acent-color);
     font-family: inherit;
@@ -75,6 +84,11 @@ ul {
     font-size: 16px;
     line-height: 24px;
 }
+
+.button-active:hover {
+   background-color: #404BBF;
+}
+/* #404BBF */
 
 .section{
 
@@ -154,7 +168,9 @@ ul {
    line-height: 1.2;
 }
 /* filter */
-  .button .active {
+  .button-active:hover,
+  .button-active:focus {
+    cursor: pointer;
     background: #404BBF;
     color: #FFFFFF;
     font-weight: 500;
@@ -163,6 +179,7 @@ ul {
   }
 
   .filter-button {
+    cursor: pointer;
     background: #F4F4FD;
     color: #4D5AE5;
     font-weight: 500;
@@ -179,9 +196,9 @@ h2  {
 }
 p {
     font-family: 'Roboto';
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 /* footer */
@@ -198,6 +215,7 @@ color: #434455;
     line-height: 1.5;
     width: 264px;
     height: 72px;
+}
 
 
 
