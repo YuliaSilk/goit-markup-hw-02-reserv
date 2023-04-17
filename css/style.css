@@ -59,7 +59,6 @@ ul {
     color:  #404BBF;
 }
 
-/*  #404BBF */
 
 /* main */
 
@@ -128,7 +127,7 @@ ul {
     height: 72px;
 }
 
-  /* PORFOLIO */
+/* PORFOLIO */
 
 .portfolio {
     background: #FFFFFF;
@@ -161,6 +160,10 @@ ul {
    line-height: 1.2;
 }
 /* filter */
+.hide {
+    display: none;
+}
+
 .button-active:hover,
 .button-active:focus {
     cursor: pointer;
