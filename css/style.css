@@ -7,13 +7,25 @@
 .page {
 background-color: #FFFFFF;
 color:var(--primery-text-color);
+font-family: Roboto;
+
 }
 /* header */
 .logo-web {
     color: #4D5AE5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
 }
 .logo-studio {
    color: #2E2F42; 
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.2;
 }
 
 ul {
@@ -22,6 +34,11 @@ ul {
 
 .site-nav .link {
     color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .site-nav .link:hover, 
@@ -30,6 +47,11 @@ ul {
 }
 .addres a {
     color: var(--primery-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* main */
@@ -40,10 +62,21 @@ ul {
 
 .hero-title {
     color:var(--acent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    width: 496px;
 }
 .button {
     background-color: #4D5AE5;
     color: var(--acent-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
 
 .section{
